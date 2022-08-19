@@ -1,0 +1,709 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/* global css code goes here */
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-lg-3{
+	width: 25%;
+	float: left;
+}
+.col-lg-4{
+	width: 33.33%;
+	float: left;
+}
+.col-lg-6{
+	width: 50%;
+	float: left;
+}
+.col-lg-9{
+	width: 75%;
+	float: left;
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+/* header code start */
+
+.header{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	border: 1px solid #071F51;
+}
+.logo{
+	display: block;
+	width:130px;
+}
+.logo .img{
+	width: 100%;
+}
+.header .navbar{
+	width: 100%;
+	float: left;
+	text-align: right;
+
+}
+.header .navbar li{
+ list-style: none;
+ display: inline-block;
+
+}
+.header .navbar li a{
+	display: block;
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #071F51;
+	font-weight: 600px;
+	margin: 15px 0px 0px 25px;
+
+}
+.header .navbar li a:hover, .header .navbar li a:focus{
+   color: #0461FF; 
+}
+/* online-section code start */
+.online-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+
+}
+.inner-online{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.inner-online h1{
+     font-size: 56px;
+     line-height: 1.4em;
+     font-weight: 700;
+     color: #031B4B;
+     margin: 0px 0px 15px;
+}
+.inner-online h1 span{
+	color: #007FFD;
+}
+.inner-online p{
+
+font-size: 16px;
+     line-height: 26px;
+     font-weight: 400;
+     color: #777;
+     margin: 0px 0px 15px;
+}
+.inner-online .banner-img{
+
+   width: 50%;
+}
+.successfull-section{
+	width: 100%;
+	float: left;
+	padding: 20px 0px 60px;
+}
+.inner-left{
+   width: 100%;
+   float: left;
+   text-align: right; 
+}
+.inner-left h2{
+   font-size: 56px;
+	line-height: 66px;
+	color: #F15767;
+	font-weight: 700;
+	margin: 0px 20px 0px 0px;
+}
+.inner-left p{
+font-size: 16px;
+     line-height: 26px;
+     font-weight: 400;
+     color: #777;
+    margin: 0px 20px 0px 0px;
+}
+.project{
+	font-size: 56px;
+	line-height: 66px;
+	color: #3F3D56;
+	font-weight: 700;
+	margin: 0px 0px 0px 20px;
+}
+.footer{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	text-align: center;
+	background:#0461FF;
+}
+.footer p{
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color: #f0f0f0;
+
+}
+.footer p a{
+color: #fff;
+font-weight: 700;
+letter-spacing:3px ;
+}
+.feature-section{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.inner-feature img{
+	width: 100%;
+	height: 170px;
+
+}
+.inner-feature h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #3F3D56;
+    margin: 10px 0px ;
+}
+.inner-feature p{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #777;
+}
+.inner-feature{
+    width: 80%;
+    float: left;
+    padding: 40px 30px ;
+    margin: 0px 10px;
+}
+.cl1{
+	background:#ECDCDF  ;
+}
+.cl2{
+    background: #EBF9F4;
+}
+.cl3{
+    background: #FFF7E8;
+}
+
+
+/* overview page css code start*/
+
+.over-view{
+	width: 100%;
+	float: left;
+}
+.over-view .img-fluid{
+    width: 100%;
+    margin: 15px 0px;
+    border: 2px solid #F15767;
+    border-radius: 10px;
+}
+.over-view h1{
+	font-size: 54px;
+	line-height: 64px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 0px 0px 10px;
+	color: #3B506C;
+}
+
+.over-view p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	margin: 0px 0px 10px;
+	color: #000;
+} 
+
+.landings{
+   width: 100%;
+   float: left;
+   text-align: right; 
+}
+.landings h1{
+   font-size: 45px;
+	line-height: 66px;
+	color: #3F3D56;
+	font-weight: 700;
+	margin: 0px 20px 0px 0px;
+}
+.landings p{
+font-size: 16px;
+     line-height: 26px;
+     font-weight: 400;
+     color: #1D3B71;
+    margin: 0px 20px 0px 0px;
+}
+.landings2 h1{
+   font-size: 45px;
+	line-height: 66px;
+	color: #3F3D56;
+	font-weight: 700;
+	margin: 0px 0px 0px 50px;
+}
+.landings2 p{
+font-size: 16px;
+     line-height: 26px;
+     font-weight: 400;
+     color: #1D3B71;
+    margin: 0px 0px 0px 50px;
+}
+.landings .image-fluid-2{
+   margin: 10px 20px 0px 0px;
+   width: 100%;
+   height: 500px;
+   border: 2px solid #3F3D56;
+   border-radius: 10px;
+}
+.landings2 .image-fluid-3{
+	margin: 10px 0px 0px 40px;
+   width: 100%;
+   height: 500px;
+   border: 2px solid #3F3D56;
+   border-radius: 10px;
+}
+
+/* pages html -> page code goes here */
+
+/* css media query code start */
+@media (min-width: 279px) and (max-width: 319px){
+.container{
+	width: 90%;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-lg-3{
+	width: 100%;
+	float: left;
+}
+.col-lg-4{
+	width: 100%;
+	float: left;
+}
+.col-lg-6{
+	width: 100%;
+	float: left;
+}
+.col-lg-9{
+	width: 100%;
+	float: left;
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.header .logo img{
+    
+    width: 130px;
+    
+}
+.header .navbar {
+    /* width: 100%; */
+    /* float: left; */
+    text-align: left;
+}
+.header .navbar li a {
+    
+    font-size: 12px;
+   
+    margin: 0px 0px 0px 5px;
+}
+
+.online-section{
+	width: 100%;
+	float: left;
+	padding: 10px 0px 0px;
+}
+
+.inner-online h1{
+font-size: 15px;
+    line-height: 21px;
+    margin: 0px 0px 6px 0px;
+}
+
+.inner-online p{
+	font-size: 10px;
+	line-height: 17px;
+}
+.inner-online .banner-img{
+	width: 95%;
+}
+.inner-left h2{
+    	font-size: 32px;
+	    text-align: center;
+	    margin: 0px 0px 0px 5px;
+    }
+    
+    .inner-left p{
+	    font-size: 15px;
+	    line-height: 25px;
+	    font-weight: 400;
+	    text-align: center;
+	 }
+	 .project{
+    	font-size: 20px;
+	    line-height: 30px;
+	    text-align: center;
+	    margin: 10px 15px 0px 5px;
+    }
+    .feature-section{
+    	padding: 10px 0px 15px;
+    }
+    .inner-feature{
+    	padding: 20px 25px 25px 10px;
+    }
+    
+    .footer p {
+    font-size: 10PX;
+    line-height: 20PX;
+}
+}
+@media( min-width: 320px ) and (max-width:  480px){
+
+.container{
+	width: 90%;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-lg-3{
+	width: 100%;
+	float: left;
+}
+.col-lg-4{
+	width: 100%;
+	float: left;
+}
+.col-lg-6{
+	width: 100%;
+	float: left;
+}
+.col-lg-9{
+	width: 100%;
+	float: left;
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.header .logo img{
+    
+    width: 130px;
+    
+}
+.header .navbar {
+    /* width: 100%; */
+    /* float: left; */
+    text-align: left;
+}
+.header .navbar li a {
+    
+    font-size: 12px;
+   
+    margin: 20px 0px 0px 20px;
+}
+
+.online-section{
+	padding: 40px 0px;
+}
+
+.inner-online h1{
+font-size: 28px;
+    line-height: 38px;
+}
+
+.inner-online p{
+	font-size: 12px;
+	line-height: 22px;
+}
+.inner-online .banner-img{
+	width: 80%;
+}
+.inner-left h2{
+    	font-size: 32px;
+	    text-align: center;
+	    margin: 0px 0px 0px 5px;
+    }
+    
+    .inner-left p{
+	    font-size: 15px;
+	    line-height: 25px;
+	    font-weight: 400;
+	    text-align: center;
+	 }
+	 .project{
+    	font-size: 50px;
+	    
+	    text-align: center;
+	    margin: 10px 15px 0px 5px;
+    }
+    .feature-section{
+    	padding: 25px 0px 20px ;
+    }
+    .inner-feature{
+    	padding: 20px 40px 30px 12px;
+    }
+    
+    }
+    .footer{
+    	margin: 10px 0px 0px;
+    }
+    .footer p {
+    font-size: 14PX;
+    line-height: 24PX;
+}
+
+
+
+}
+
+@media( min-width: 481px ) and (max-width:  767px){
+
+.container{
+	width: 90%;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-lg-3{
+	width: 100%;
+	float: left;
+}
+.col-lg-4{
+	width: 100%;
+	float: left;
+}
+.col-lg-6{
+	width: 100%;
+	float: left;
+}
+.col-lg-9{
+	width: 100%;
+	float: left;
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.header .logo img{
+    
+    width: 130px;
+    
+}
+.header .navbar {
+    /* width: 100%; */
+    /* float: left; */
+    text-align: center;
+    margin: 10px 0px 0px;
+}
+.header .navbar li a {
+    
+    font-size: 12px;
+    margin: 12px 0px 0px 20px;
+
+}
+
+.online-section{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+}
+
+.inner-online h1{
+font-size: 20px;
+    line-height: 32px;
+    margin: 0px 0px 10px 12px;
+}
+
+.inner-online p{
+	font-size: 12px;
+	line-height: 22px;
+}
+.inner-online .banner-img{
+	width: 80%;
+}
+    .inner-left h2{
+    	font-size: 32px;
+	    text-align: center;
+	    margin: 0px 0px 0px 5px;
+    }
+    
+    .inner-left p{
+	    font-size: 15px;
+	    line-height: 25px;
+	    font-weight: 400;
+	    text-align: center;
+	 }
+	 .project{
+    	font-size: 27px;
+	    line-height: 37px;
+	    text-align: center;
+	    margin: 10px 15px 0px 5px;
+    }
+    .successfull-section{
+    	padding: 20px 0px 10px;
+    }
+    .feature-section{
+    	padding: 0px 0px 0px 12px;
+    }
+    .inner-future{
+    	margin: 5px 0px 10px 25px;
+    }
+    .footer{
+    	margin: 10px 0px 0px;
+    }
+    .footer p {
+    font-size: 14PX;
+    line-height: 24PX;
+}
+
+
+
+}
+
+@media( min-width: 768px ) and (max-width:  1024px){
+
+.container{
+	width: 90%;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-lg-3{
+	width: 100%;
+	float: left;
+}
+.col-lg-4{
+	width: 100%;
+	float: left;
+}
+.col-lg-6{
+	width: 100%;
+	float: left;
+}
+.col-lg-9{
+	width: 100%;
+	float: left;
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+
+.logo {
+    
+    width: 100%;
+    text-align: center;
+}
+.header .logo img{
+    
+    width: 160px;
+    
+}
+.header .navbar {
+    /* width: 100%; */
+    /* float: left; */
+    text-align: center;
+    margin: 10px 0px 0px;
+}
+.header .navbar li a {
+    
+    font-size: 18px;
+   
+    margin: 0px 0px 0px 40px;
+}
+
+.online-section{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+}
+
+.inner-online h1{
+font-size: 30px;
+    line-height: 40px;
+    margin: 0px ;
+}
+
+.inner-online p{
+	font-size: 15px;
+	line-height: 25px;
+	padding: 10px 0px 0px;
+}
+.inner-online .banner-img{
+	width: 70%;
+}
+
+	 .project{
+    	font-size: 32px;
+	    
+	    text-align: center;
+	    margin: 0px 0px 0px 5px;
+    }
+    .feature-section{
+    	padding: 0px 0px 0px 0px;
+    }
+    .inner-feature{
+    	margin: 5px 0px 10px 70px;
+    }
+    
+    }
+    .footer{
+    	margin: 10px 0px 0px;
+    }
+    .footer p {
+    font-size: 14PX;
+    line-height: 24PX;
+}
+
+
+
+}
+
+}
